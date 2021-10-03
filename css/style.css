@@ -78,14 +78,14 @@ Header Section
 .nav-list {
   list-style: none;
   display: flex;
-  gap: 4.8rem;
+  gap: 3.2rem;
 }
 
 a:link,
 a:visited {
   text-decoration: none;
   color: #333;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 500;
 }
 
@@ -107,3 +107,79 @@ li.main {
 .icons {
   font-size: 2.4rem;
 }
+
+/**************
+Header Section
+***************/
+
+.hero-section {
+  max-width: 130rem;
+  margin: 4.8rem auto;
+}
+
+.text-box {
+  padding: 9.6rem 5.5rem;
+  align-self: end;
+  background-color: #d4e8ea;
+}
+
+.heading-primary {
+  font-size: 5.5rem;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 3.2rem;
+}
+
+.hero-description {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+a.btn {
+  font-weight: 600;
+  display: inline-block;
+  padding: 1.8rem 2.6rem;
+}
+
+.btn:not(:last-child) {
+  margin-right: 1.8rem;
+}
+
+.btn.filled {
+  background-color: #5e5e5e;
+  color: #fff;
+}
+
+.btn.outline {
+  box-shadow: 0 0 0 2px #5e5e5e;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-2-col {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.img-box {
+  /* width: 200px; */
+  /* height: 600px; */
+  /* overflow: hidden; */
+}
+
+.img {
+  /* display: inline-block; */
+  width: 100%;
+}
+
+/*
+font size (px)
+    10 / 12 / 14 / 16 / 18 / 20 / 24 
+    / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+2 / 4 / 8 / 12 / 16 / 24 / 32 /48 / 64 / 
+80 / 96 / 128 */
