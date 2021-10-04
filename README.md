@@ -20,7 +20,7 @@
     (Yup, you read right, it's for DAMN furniture)
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://milind-jamnekar.github.io/Futrinur/">View Demo</a>
     ·
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
     ·
