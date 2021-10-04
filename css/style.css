@@ -162,14 +162,6 @@ Header Section
   background-color: transparent;
 }
 
-.grid {
-  display: grid;
-}
-
-.grid-2-col {
-  grid-template-columns: repeat(2, 1fr);
-}
-
 .img-box {
   /* height: 90%; */
 }
@@ -211,7 +203,7 @@ Mission Section
 ***************/
 
 .mission-section {
-  margin: 9.6rem 0;
+  margin: 12.6rem 0;
 }
 
 .right p {
@@ -235,6 +227,25 @@ Mission Section
 
 .right p:not(:last-child) {
   margin-bottom: 3.2rem;
+}
+
+/**************
+gallery Section
+***************/
+
+.gallery-section {
+  margin: 12.6rem 0;
+}
+
+.gallery-box {
+  display: flex;
+  flex: none;
+  gap: 1.8rem;
+  margin-left: 20rem;
+}
+
+.gallery-img {
+  width: 30%;
 }
 
 /*

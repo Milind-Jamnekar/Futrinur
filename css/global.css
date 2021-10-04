@@ -3,6 +3,18 @@
   margin: 0 auto;
 }
 
+.grid {
+  display: grid;
+}
+
+.grid-1-row {
+  grid-template-rows: 1fr;
+}
+
+.grid-2-col {
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .heading-primary {
   font-size: 5.5rem;
   line-height: 1.2;
