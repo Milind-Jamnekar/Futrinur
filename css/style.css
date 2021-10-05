@@ -62,8 +62,8 @@ body {
 Header Section
 ***************/
 
-.header {
-}
+/* .header {
+} */
 
 .nav {
   display: flex;
@@ -80,15 +80,19 @@ Header Section
 
 .link:link,
 .link:visited {
+  padding-bottom: 0.5rem;
   text-decoration: none;
   color: #333;
   font-size: 1.8rem;
   font-weight: 500;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom-color 0.3s;
 }
 
 .link:hover,
 .link:active {
   color: #5e5e5e;
+  border-bottom-color: #333;
 }
 
 li.main {
@@ -102,6 +106,7 @@ li.main {
 }
 
 .icons {
+  color: #333;
   font-size: 2.4rem;
 }
 
@@ -138,6 +143,7 @@ Header Section
 
 .btn:hover,
 .btn:active {
+  border-bottom-color: #333;
 }
 
 .btn:not(:last-child) {
@@ -162,9 +168,9 @@ Header Section
   background-color: transparent;
 }
 
-.img-box {
-  /* height: 90%; */
-}
+/* .img-box {
+  /* height: 90%; 
+} */
 
 .img {
   /* display: inline-block; */
