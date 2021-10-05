@@ -151,7 +151,7 @@ Header Section
 }
 
 .btn.filled {
-  background-color: #707070;
+  background-color: #202020;
   color: #fff;
 }
 
@@ -174,6 +174,8 @@ Header Section
 
 .img {
   /* display: inline-block; */
+  object-fit: cover;
+  height: 75rem;
   width: 100%;
 }
 
@@ -241,19 +243,110 @@ gallery Section
 
 .gallery-section {
   margin: 12.6rem 0;
+  overflow-x: scroll;
+}
+
+.gallery-section::-webkit-scrollbar {
+  display: none;
 }
 
 .gallery-box {
   display: flex;
   flex: none;
   gap: 1.8rem;
-  margin-left: 20rem;
+  /* margin-left: 20rem; */
 }
 
 .gallery-img {
   width: 30%;
 }
 
+/**************
+feature Section
+***************/
+
+.feature-section {
+  margin: 12.6rem 0;
+}
+
+.feature-img {
+  width: 100%;
+}
+
+.feature-box {
+  position: relative;
+}
+
+.feature-container {
+  transform: translateY(-40%);
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 2.4rem;
+}
+
+.black-box {
+  color: white;
+  background-color: #333;
+  /* padding-top: -10rem; */
+  padding: 4rem 2.7rem 4rem 2.7rem;
+}
+
+.feature-container h4 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin-bottom: 2.4rem;
+}
+
+.feature-description {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #5e5e5e;
+}
+
+.black-box p {
+  color: rgb(146, 146, 146);
+}
+
+/**************
+cta Section
+***************/
+
+.cta-section {
+  margin: 30rem 0 12.6rem;
+}
+
+.cta-img-box {
+  width: 100%;
+}
+
+.cta-img {
+  object-fit: cover;
+  height: 50rem;
+  width: 100%;
+}
+
+.cta-text-box {
+  border: px solid #202020;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-description {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: #5e5e5e;
+  margin-bottom: 3.2rem;
+}
+
+.text {
+  padding: 10rem;
+  text-align: center;
+}
 /*
 font size (px)
     10 / 12 / 14 / 16 / 18 / 20 / 24 

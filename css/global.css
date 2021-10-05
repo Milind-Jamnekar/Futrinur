@@ -29,3 +29,10 @@
   line-height: 1.1;
   font-weight: 500;
 }
+
+.heading-tertiary {
+  font-size: 3.6rem;
+  line-height: 1.4;
+  font-weight: 500;
+  margin-bottom: 1.8rem;
+}
