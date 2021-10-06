@@ -347,6 +347,115 @@ cta Section
   padding: 10rem;
   text-align: center;
 }
+
+/**************
+footer Section
+***************/
+
+.footer {
+  margin: 12.6rem 0 0 0;
+  background-color: #202020;
+  color: #fafafa;
+  padding: 7.5rem;
+}
+
+.wrapper {
+  padding: 0 8.6rem;
+}
+
+.anounce {
+  grid-column: 1 / 3;
+  font-size: 2.4rem;
+  line-height: 1.1;
+  margin: 3.2rem 0 3.2rem;
+}
+
+.footer-btn {
+  font-size: 1.8rem;
+  grid-column: 4 / 5;
+  display: inline-block;
+  font-weight: 600;
+  background-color: #fafafa;
+  color: #202020;
+  justify-self: end;
+  align-self: center;
+  padding: 1.6rem 3rem;
+  border: none;
+  cursor: pointer;
+}
+
+.footer-about {
+  grid-column: 1 / 2;
+}
+
+.footer-about h5,
+.footer-company h5,
+.footer-newsletter h5 {
+  font-size: 1.8rem;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+.footer-about p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+.footer-company {
+  grid-column: 2/ 4;
+  justify-self: center;
+}
+
+.footer-company a {
+  text-decoration: none;
+  color: #d4e8ea;
+}
+
+.footer-company ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.footer-newsletter {
+  grid-column: 4/ 5;
+}
+
+.footer-newsletter div {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 1.2rem;
+}
+
+.footer-newsletter input {
+  outline: none;
+  box-shadow: none;
+  border-radius: none;
+  background-color: #303030;
+  color: #202020;
+  padding: 1rem;
+  width: 70%;
+}
+
+.footer-newsletter input::placeholder {
+  color: #fafafa;
+}
+
+.send-btn {
+  border: none;
+  padding: 1rem;
+  width: 30%;
+}
+
+.line {
+  grid-column: 1 /-1;
+  grid-row: 2;
+  width: 100%;
+  height: 1px;
+  background-color: #575656;
+}
+
 /*
 font size (px)
     10 / 12 / 14 / 16 / 18 / 20 / 24 
