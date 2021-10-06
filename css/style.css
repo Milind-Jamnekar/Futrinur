@@ -62,8 +62,9 @@ body {
 Header Section
 ***************/
 
-/* .header {
-} */
+.header {
+  padding: 2rem;
+}
 
 .nav {
   display: flex;
@@ -75,6 +76,7 @@ Header Section
 .nav-list {
   list-style: none;
   display: flex;
+  align-items: center;
   gap: 3.2rem;
 }
 
@@ -175,7 +177,7 @@ Header Section
 .img {
   /* display: inline-block; */
   object-fit: cover;
-  height: 75rem;
+  height: 59.9rem;
   width: 100%;
 }
 
@@ -212,6 +214,10 @@ Mission Section
 
 .mission-section {
   margin: 12.6rem 0;
+}
+
+.right {
+  margin-left: 1.2rem;
 }
 
 .right p {
@@ -305,8 +311,8 @@ feature Section
   color: #5e5e5e;
 }
 
-.black-box p {
-  color: rgb(146, 146, 146);
+.dark {
+  color: #9c9c9c;
 }
 
 /**************
@@ -436,10 +442,15 @@ footer Section
   color: #202020;
   padding: 1rem;
   width: 70%;
+  caret-color: #fafafa;
 }
 
 .footer-newsletter input::placeholder {
-  color: #fafafa;
+  color: #5f5f5f;
+}
+
+.footer-newsletter p {
+  line-height: 1.6;
 }
 
 .send-btn {

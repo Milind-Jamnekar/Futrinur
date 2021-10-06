@@ -1,0 +1,141 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (max-width: 75em) {
+  .mission-section {
+    padding: 0 2rem;
+  }
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+
+  .wrapper {
+    padding: 0 6.4rem;
+  }
+}
+
+/*  (small laptops and , 1140px and up) */
+
+@media (max-width: 71.25em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .footer {
+    padding: 5.5rem;
+  }
+
+  .wrapper {
+    padding: 0 3.2rem;
+  }
+}
+
+/*  (tablet and , 912px and up) */
+
+@media (max-width: 50em) {
+  html {
+    font-size: 50%;
+  }
+
+  .text-box {
+    text-align: center;
+  }
+
+  .grid-2-col {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-container {
+    transform: translateY(-3rem);
+    padding: 0 9.6rem;
+    text-align: center;
+    position: relative;
+    display: block;
+  }
+
+  .feature-container div {
+    padding: 2.4rem 4.8rem;
+  }
+
+  .black-box {
+    padding: 4rem 3.2rem;
+  }
+  .featured-img {
+    height: 2.4rem;
+    filter: brightness(0);
+    opacity: 50%;
+  }
+
+  .wrapper {
+    padding: 0;
+  }
+
+  .footer-btn {
+    grid-column: 3/5;
+  }
+  .footer-company {
+    justify-self: end;
+    grid-column: 3/5;
+  }
+
+  .footer-newsletter {
+    margin-top: 2.4rem;
+    grid-column: 1/ 4;
+    grid-row: 4;
+  }
+
+  .cta-section {
+    margin: 10rem 0 12.6rem;
+  }
+}
+
+@media (max-width: 35em) {
+  .text-box {
+    padding: 3.2rem;
+  }
+  .container {
+    padding: 0;
+  }
+
+  .featured-img {
+    height: 1.2rem;
+  }
+
+  .heading-secondary {
+    font-size: 3rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .right {
+    margin: 0;
+  }
+
+  .feature-container {
+    padding: 2.4rem;
+  }
+
+  .wrapper {
+    gap: 1.2rem;
+  }
+
+  .anounce {
+    grid-column: 1/ -1;
+  }
+
+  .line {
+    grid-row: 3;
+  }
+
+  .footer-btn {
+    justify-self: start;
+    margin-bottom: 1.2rem;
+    grid-row: 2;
+    grid-column: 1/-1;
+  }
+}
+
+/*
+font size (px)
+    10 / 12 / 14 / 16 / 18 / 20 / 24 
+    / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+2 / 4 / 8 / 12 / 16 / 24 / 32 /48 / 64 / 
+80 / 96 / 128 */
