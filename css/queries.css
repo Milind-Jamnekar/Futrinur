@@ -87,6 +87,8 @@
   }
 }
 
+/*  (tablet and , 560px and up) */
+
 @media (max-width: 35em) {
   .text-box {
     padding: 3.2rem;

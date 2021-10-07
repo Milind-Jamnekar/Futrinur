@@ -45,7 +45,7 @@ This Website nothing but i'm practicing building website as I am currently learn
 
 Twitter - [@MilindJamnekar](https://twitter.com/MilindJamnekar) - email@example.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/Milind-Jamnekar/Futrinur](https://github.com/Milind-Jamnekar/Futrinur)
 
 <!-- ACKNOWLEDGEMENTS -->
 
